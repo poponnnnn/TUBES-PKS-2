@@ -1,0 +1,59 @@
+/******************************************************************************
+
+-------PROGRAM PERHITUNGAN KADAR KOLESTEROL-------
+---KELOMPOK 21_TEKNIK BIOMEDIS_TPB 7 2022/2023---
+122430027_PUTRI ANGGUN
+122430028_AULIA NURIYANA
+122430029_WITRI WULANDARI
+122430041_NAYA PUTRI RENANDA
+
+*******************************************************************************/
+#include <iostream>  //deklarasi fungsi-fungsi input atau output 
+using namespace std;  //pernyataan yang memberi tahu kompiler untuk menggunakan namespace std
+
+int main()  //Eksekusi program 
+{
+  int n; //mendeklarasikan variabel n dengan tipe data int, yang akan digunakan untuk menyimpan jumlah pasien.
+  char ulangi = 'y';
+  float LDL, HDL, trigliserida; //mendeklarasikan variabel-variabel yang akan digunakan untuk menyimpan data pasien, yaitu LDL, HDL, dan trigliserida dengan tipe data float.
+  cout << "Masukan Jumlah Pasien : ";  //menampilkan pesan 
+  cin >> n;  //mengambil input dari pengguna 
+  string nama[n]; //mendeklarasikan array string nama dengan ukuran n, yang akan digunakan untuk menyimpan nama-nama pasien
+  float kolesterol[n]; //mendeklarasikan array float kolesterol dengan ukuran n, yang akan digunakan untuk menyimpan hasil perhitungan kadar kolesterol untuk setiap pasien.
+  cout << endl;
+  do {
+  cout << "===SELEMAT DATANG DI PROGRAM PERHITUNGAN KADAR KOLESTEROL===" << endl;
+  for (int i = 0; i < n; i++) //memulai for loop untuk mengambil input dari setiap pasien.
+  {
+    cout << i + 1 << endl;
+    cout << "Silakan Masukan Nama Anda : ";
+    cin >> nama[i];
+    cout << "Silakan Masukan Jumlah LDL : ";
+    cin >> LDL;
+    cout << "Silakan Masukan Jumlah HDL : ";
+    cin >> HDL;
+    cout << "Silakan Masukan Jumlah Trigliserida : ";
+    cin >> trigliserida;
+    kolesterol[i] = LDL + HDL + (0.2 * trigliserida); //, menghitung kadar kolesterol dengan rumus yang diberikan dan menyimpan hasilnya di dalam array kolesterol untuk pasien saat ini.
+  }
+  cout << "\n===HASIL DARI PERHITUNGAN KADAR KOLESTEROL===" << endl; //menampilkan pesan setelah semua input pasien selesai 
+  for (int i = 0; i < n; i++) //memulai for loop untuk menampilkan hasil perhitungan kadar kolesterol.
+  {
+
+    cout << i + 1 << ". " << nama[i] << endl;
+    if (kolesterol[i] > 200) //memeriksa jika kadar kolesterol melebihi 200, maka menampilkan pesan "kadar kolesterol : <nilai kolesterol> [TINGGI]". 
+    {
+      cout << "kadar kolesterol : " << kolesterol[i] << " [TINGGI]" << endl;
+    }
+    else //Jika tidak, maka menampilkan pesan "kadar kolesterol : <nilai kolesterol> [NORMAL]".
+    {
+      cout << "kadar kolesterol : " << kolesterol[i] << " [NORMAL]" << endl;
+    }
+    cout<<"Apakah Kamu ingin mengulang program? (y/t) : ";
+      cin>>ulangi;
+  }
+  }while (ulangi == 'y');
+}
+
+
+
