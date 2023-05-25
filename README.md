@@ -1,6 +1,6 @@
 # TUBES-PKS-2
 Dalam pengembangan program perhitungan kadar kolesterol menggunakan bahasa pemrograman C++ diperlukan software Integrated Development Evironment (IDE) seperti Dev-C++ atau Visual Studio Code untuk menjalankan dan mengembangkan kode program.
-# Cara Penggunaan :
+# Cara Menggunakan Program :
 1. Buka software Dev-C++ dan buka file C++ tentang program 
 perhitungan kadar kolesterol dengan format file cpp.
 2. Jalankan program dengan menekan F11 pada keyboard.
