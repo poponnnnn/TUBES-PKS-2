@@ -6,9 +6,9 @@ Dalam pengembangan program perhitungan kadar kolesterol menggunakan bahasa pemro
 3. Putri Anggun_122430027_TPB 7
 4. Witri Wulandari_122430029_TPB 7
 # Pengantar Komputer & Software 2
-Nama Dosen: Asep Nurul Ajiid Mustofa, S.T., M.T.
-Nama asisten praktikum 1: Marchel Timoteus S
-Nama asistem praktikum 2: David Panondang Sinaga
+1. Nama Dosen: Asep Nurul Ajiid Mustofa, S.T., M.T.
+2. Nama asisten praktikum 1: Marchel Timoteus S
+3. Nama asistem praktikum 2: David Panondang Sinaga
 # Cara Kerja Program
 1. Program akan meminta masukan jumlah pasien, nama pasien, jumlah LDL, HDL, dan trigliserida.
 2. Program akan menghitung jumlah kadar kolesterol.
