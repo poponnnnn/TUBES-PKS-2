@@ -11,7 +11,7 @@ perhitungan kadar kolesterol.
 5. Program selesai.
 # Anggota Kelompok :
 1. Aulia Nuriyana_122430028_TPB 7
-2. Naya Putri_122430050_TPB 7
+2. Naya Putri_122430041_TPB 7
 3. Putri Anggun_122430027_TPB 7
 4. Witri Wulandari_122430029_TPB 7
 # Pengantar Komputer & Software 2
