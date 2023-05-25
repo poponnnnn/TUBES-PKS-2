@@ -27,5 +27,5 @@ perhitungan kadar kolesterol.
 | ------ | ------ |
 | Laporan | https://drive.google.com/file/d/1SCrXjGHFHQCRCB2G7p7Qu-h4Z6Je7JhU/view?usp=share_link |
 | Program | https://github.com/poponnnnn/TUBES-PKS-2.git |
-| Program running | https://onlinegdb.com/sADHiP2av |
+| Program running | https://onlinegdb.com/SoqqiCTOy |
 | Video | https://youtu.be/bpp1sxbVutI |
