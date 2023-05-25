@@ -9,7 +9,11 @@ Dalam pengembangan program perhitungan kadar kolesterol menggunakan bahasa pemro
 Nama Dosen: Asep Nurul Ajiid Mustofa, S.T., M.T.
 Nama asisten praktikum 1: Marchel Timoteus S
 Nama asistem praktikum 2: David Panondang Sinaga
-# Cara Menggunakan Program :
+# Cara Kerja Program
+1. Program akan meminta masukan jumlah pasien, nama pasien, jumlah LDL, HDL, dan trigliserida.
+2. Program akan menghitung jumlah kadar kolesterol.
+3. Program akan menampilkan nama pasiesn dan hasil perhitungan kadar kolesterol.
+# Cara Menggunakan Program
 1. Buka software Dev-C++ dan buka file C++ tentang program 
 perhitungan kadar kolesterol dengan format file cpp.
 2. Jalankan program dengan menekan F11 pada keyboard.
@@ -21,8 +25,8 @@ perhitungan kadar kolesterol.
 # Media
 | File |      link     |
 | ------ | ------ |
-| Laporan | tempel link disini |
-| Github Program | https://github.com/marselferrys/TUBES-PKS-2 |
-| Program | https://github.com/marselferrys/TUBES-PKS-2 |
-| Program running | https://replit.com/@Marchel-Samosir/Tugas-Besar-PKS-2 |
-| Video | tempel link disini |
+| Laporan | https://drive.google.com/file/d/1SCrXjGHFHQCRCB2G7p7Qu-h4Z6Je7JhU/view?usp=share_link |
+| Github Program | https://github.com/poponnnnn/TUBES-PKS-2.git |
+| Program | https://github.com/poponnnnn/TUBES-PKS-2.git |
+| Program running | https://onlinegdb.com/sADHiP2av |
+| Video | https://youtu.be/bpp1sxbVutI |
